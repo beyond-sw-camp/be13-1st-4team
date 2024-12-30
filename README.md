@@ -200,3 +200,37 @@ VALUES(
 
 ```
 
+### 2. MENU
+```sql
+INSERT INTO `menu`
+( menu_name, menu_price, menu_content, menu_img_url, store_no )
+VALUES (
+	'토마토 피자',
+	21000,
+	'납작한 반죽에 토마토 소스와 치즈 등 토핑을 얹어서 구워낸 토마토피자',
+	"C:\Users\g\Documents\1차 프로젝트\메뉴 이미지\pizza.webp",
+	1	
+);
+
+```
+
+### 3. STORES
+```sql
+INSERT INTO `stores`
+(store_name, store_address, phone, store_info, store_img, min_delivery_price,
+delivery_charge, total_rating, review_count, store_status, member_no, category_code)
+VALUES(
+	'홍킁반점',
+	'서울특별시 동작구 보라매로',
+	'02-421-1516',
+	'둘이 먹다 하나가 죽어도 모르는 맛집',
+	'C:\Users\Playdata\Documents\프로젝트4조\4조 이미지 폴더\홍킁반점.jpg'
+	15000,
+	6000,
+	4.2,
+	12,
+	'Y',
+	5,
+	2
+);
+```
