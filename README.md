@@ -12,7 +12,7 @@
 </div>  
 
 ## 목차
-1.[SCHEMA](##SCHEMA )
+1.[SCHEMA](#1.-MEMBER )
 
 
 
