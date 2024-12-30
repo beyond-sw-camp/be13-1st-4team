@@ -13,6 +13,7 @@
 
 ## 목차
 
+<div>
 1. [기술 스택](#-----)
 2. [팀원](#--)
 3. [프로젝트 개요](#-------)  
@@ -31,7 +32,9 @@
    1.1. [PROCEDURE 🧷](#-procedure)  
    1.2. [TRIGGER 🧷](#-trigger--)
 
----  
+	
+</div>
+
 
 ## 기술 스택
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
