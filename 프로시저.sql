@@ -150,3 +150,26 @@ INSERT INTO manner_level
 (manner_score, evaluatee_no, evaluator_no )
 VALUES 
 (-2,1,2);
+
+
+
+DELIMITER $$
+
+CREATE OR REPLACE TRIGGER afterChatRoomInsert
+AFTER INSERT ON chat_room
+FOR EACH ROW
+BEGIN
+    INSERT INTO cart(chat_room_no) VALUES (NEW.chat_room_no);
+END$$
+
+DELIMITER ;
+
+INSERT INTO chat_room
+( chat_name, address, current_people_num, max_people_num, store_no )
+VALUES (
+    '피자!!! 먹을 사람!',
+    '경기도 용인시 수지구 동일 정문',
+     1,
+     4,
+     2
+);
