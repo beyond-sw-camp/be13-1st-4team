@@ -36,9 +36,8 @@
 <details>
 
 <summary>링크</summary>
-<a>
-  WBS 4조.pdf
-</a>
+ [ WBS 4조.pdf](https://github.com/beyond-sw-camp/be13-1st-bab_eum/blob/main/WBS%204%E1%84%8C%E1%85%A9.pdf)
+
   
 
 </detail>
