@@ -364,7 +364,7 @@ END$$
 DELIMITER ;
 ```
 
-### TRIGGER 🧷
+### TRIGGER
 ```sql
 DELIMITER $$
 
