@@ -1,13 +1,15 @@
 # BobEUM
 
 <div>
-<img src="4th_team_logo.png" width= "300" height="300"/>
+<p align="center"><img src="4th_team_logo.png" width= "300" height="300"/>
   
 </div>
 
 &nbsp;
-
-### 4팀 - NOISE_CAN
+<div align=center>
+	
+###  4팀 - NOISE_CAN 
+</div>
 
 ## 기술 스택
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
