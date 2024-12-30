@@ -170,7 +170,7 @@ CREATE TABLE orders (
 
 </br>
 
-## DML ✏️
+## ✏️ DML 
 ### 1. MEMBER
 ```sql
 일반 회원
@@ -263,9 +263,9 @@ VALUES(
 ```
 </br>
 
-## 프로시저와 트리거
+## 🧷 프로시저와 트리거
 
-### PROCEDURE 🧷 
+### PROCEDURE  
 
 ```sql
 DELIMITER $$
