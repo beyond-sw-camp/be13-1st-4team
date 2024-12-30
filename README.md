@@ -24,13 +24,13 @@
    1.1. [MEMBER](#1-member)    
    1.2. [STORES](#2-stores)   
    1.3. [ORDERS](#3-orders)  
-7. [DML ✏️](#dml---)  
+7. [✏️ DML](#dml---)  
    1.1. [1. MEMBER](#1-member-1)  
    1.2. [2. MENU](#2-menu)  
    1.3. [3. STORES](#3-stores)  
-8. [프로시저와 트리거](#프로시저와-트리거)  
-   1.1. [PROCEDURE 🧷](#-procedure)  
-   1.2. [TRIGGER 🧷](#-trigger--)
+8. [🧷 프로시저와 트리거](#프로시저와-트리거)  
+   1.1. [PROCEDURE](#-procedure)  
+   1.2. [TRIGGER](#-trigger--)
 
 	
 
