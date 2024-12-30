@@ -21,7 +21,6 @@
 4.[WBS](#wbs)  
 5.[요구사항 명세서](#요구사항-명세서)  
 6. [📌 SCHEMA](#-schema)  
-
   1.1. [MEMBER](#1-member)    
   1.2. [STORES](#2-stores)   
   1.3. [ORDERS](#3-orders)  
