@@ -47,7 +47,7 @@
 <details>
 
 <summary>링크</summary>
-[@ㅇ로](https://github.com/beyond-sw-camp/be13-1st-bab_eum/blob/main/WBS%204%E1%84%8C%E1%85%A9.pdf)
+[링크](https://github.com/beyond-sw-camp/be13-1st-bab_eum/blob/main/WBS%204%E1%84%8C%E1%85%A9.pdf/)
 
   
 
