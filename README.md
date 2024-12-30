@@ -124,6 +124,5 @@ CREATE TABLE `category_type` (
 	`category_code` INT(11) NOT NULL DEFAULT '0',
 	`category_name` VARCHAR(45) NOT NULL ,
 	PRIMARY KEY (`category_code`) USING BTREE
-)
-;
+);
 ```
