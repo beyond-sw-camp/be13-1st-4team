@@ -29,8 +29,8 @@
   * [2. MENU](#2-menu)
   * [3. STORES](#3-stores)
 8. [프로시저와 트리거](#프로시저와-트리거)  
-  1.1. [PROCEDURE 🧷](#procedure--)  
-  1.2. [TRIGGER 🧷](#trigger--)
+  1.1. [PROCEDURE 🧷](#-procedure-🧷)  
+  1.2. [TRIGGER 🧷](#-trigger--)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
