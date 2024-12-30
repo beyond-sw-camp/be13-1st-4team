@@ -12,7 +12,7 @@
 </div>  
 
 ## 목차
-1.[MEMBER](#1.-member )
+1.[MEMBER](#1. member )
 
 
 
