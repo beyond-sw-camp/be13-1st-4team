@@ -294,7 +294,8 @@ BEGIN
 	 ;
 END$$
 DELIMITER ;
-
+```
+```sql
 DELIMITER $$
 CREATE PROCEDURE CreatePersonalCart(
     IN p_member_no INT,
@@ -318,9 +319,25 @@ BEGIN
         p_quantity * m.menu_price
     FROM menu m
     WHERE m.menu_name = p_menu_name;
-END $$
+END$$
 DELIMITER ;
 
+```
+```sql
+DELIMITER $$
+
+CREATE PROCEDURE InsertChatRoom(
+    IN chat_name VARCHAR(255), 
+    IN address VARCHAR(255), 
+    IN max_people_num INT, 
+    IN store_no INT
+)
+BEGIN
+    INSERT INTO chat_room (chat_name, address, max_people_num, store_no)
+    VALUES (chat_name, address, max_people_num, store_no);
+END$$
+
+DELIMITER ;
 ```
 
 ### TRIGGER 🧷
