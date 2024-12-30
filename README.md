@@ -121,20 +121,20 @@ CREATE TABLE `stores` (
 ### 3. ORDERS
 ```sql
 CREATE TABLE orders (
-order_no INT(11) NOT NULL AUTO_INCREMENT,
-order_status VARCHAR(10) NOT NULL DEFAULT 'N',
-total_price INT(11) NOT NULL DEFAULT '0' ,
-member_no INT(11) NOT NULL ,
-store_no INT(11) NOT NULL ,
-cart_no INT(11) NOT NULL,
-PRIMARY KEY (order_no) USING BTREE,
-INDEX FK_member_TO_orders_1 (member_no) USING BTREE,
-INDEX FK_cart_TO_orders (cart_no) USING BTREE,
-INDEX FK_store_TO_orders_1 (store_no) USING BTREE,
-CONSTRAINT FK_cart_TO_orders FOREIGN KEY (cart_no) REFERENCES cart (cart_no) ON UPDATE RESTRICT ON DELETE RESTRICT,
-CONSTRAINT FK_member_TO_orders_1 FOREIGN KEY (member_no) REFERENCES member (member_no) ON UPDATE RESTRICT ON DELETE RESTRICT,
-CONSTRAINT FK_stores_TO_orders_1 FOREIGN KEY (store_no) REFERENCES stores (store_no) ON UPDATE RESTRICT ON DELETE RESTRICT,
-CONSTRAINT CONSTRAINT_1 CHECK (order_status in ('Y','N')),
-CONSTRAINT CONSTRAINT_2 CHECK (order_status in ('Y','N'))
+	order_no INT(11) NOT NULL AUTO_INCREMENT,
+	order_status VARCHAR(10) NOT NULL DEFAULT 'N',
+	total_price INT(11) NOT NULL DEFAULT '0' ,
+	member_no INT(11) NOT NULL ,
+	store_no INT(11) NOT NULL ,
+	cart_no INT(11) NOT NULL,
+	PRIMARY KEY (order_no) USING BTREE,
+	INDEX FK_member_TO_orders_1 (member_no) USING BTREE,
+	INDEX FK_cart_TO_orders (cart_no) USING BTREE,
+	INDEX FK_store_TO_orders_1 (store_no) USING BTREE,
+	CONSTRAINT FK_cart_TO_orders FOREIGN KEY (cart_no) REFERENCES cart (cart_no) ON UPDATE RESTRICT ON DELETE RESTRICT,
+	CONSTRAINT FK_member_TO_orders_1 FOREIGN KEY (member_no) REFERENCES member (member_no) ON UPDATE RESTRICT ON DELETE RESTRICT,
+	CONSTRAINT FK_stores_TO_orders_1 FOREIGN KEY (store_no) REFERENCES stores (store_no) ON UPDATE RESTRICT ON DELETE RESTRICT,
+	CONSTRAINT CONSTRAINT_1 CHECK (order_status in ('Y','N')),
+	CONSTRAINT CONSTRAINT_2 CHECK (order_status in ('Y','N'))
 );
 ```
