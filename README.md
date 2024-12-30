@@ -31,6 +31,8 @@
 
 ### 2. 배경
 
+
+<div>
 ## WBS
 
 <details>
@@ -41,13 +43,19 @@
   
 
 </detail>
+  
+</div>
 
-## 요구사항 명세서
+<div>
+  
+  ## 요구사항 명세서
 
-<details>
-<summary>링크</summary>
-요구사항 명세서.pdf
-</detail>
+  <details>
+  <summary>링크</summary>
+  요구사항 명세서.pdf
+  </detail>
+
+</div>
 
 ## SQL 성능 개선
 s
