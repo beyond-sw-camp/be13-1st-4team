@@ -36,7 +36,10 @@
 <details>
 
 <summary>링크</summary>
-WBS 4조.pdf
+<a>
+  WBS 4조.pdf
+</a>
+  
 
 </detail>
 
