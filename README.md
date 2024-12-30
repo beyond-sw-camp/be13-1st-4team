@@ -63,7 +63,7 @@
 </div>
 
 
-## SCHEMA 
+## 📌 SCHEMA 
 ### 1. MEMBER
 ```sql
 CREATE TABLE `member` (
