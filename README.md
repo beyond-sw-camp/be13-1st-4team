@@ -32,8 +32,7 @@
   1.1. [PROCEDURE 🧷](#-procedure)  
   1.2. [TRIGGER 🧷](#-trigger--)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
+---  
 
 ## 기술 스택
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
