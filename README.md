@@ -61,7 +61,7 @@
 
 
 </div>
-
+</br>
 
 ## 📌 SCHEMA 
 ### 1. MEMBER
@@ -138,3 +138,63 @@ CREATE TABLE orders (
 	CONSTRAINT CONSTRAINT_2 CHECK (order_status in ('Y','N'))
 );
 ```
+
+</br>
+
+## DML ✏️
+### 1. MEMBER
+```sql
+일반 회원
+INSERT INTO `member` 
+( member_code, user_id, email, `password`, `name`, nickname,identity_no, phone, profile_img, address,manner_total_score)
+VALUES( 
+        '1',
+        'choi123',
+        'choi123@gmail.com',
+	'choigun123',
+	'최건', 
+	'잠수한 악어',
+	'778872-1484893',
+	'010-2222-3333',
+	'C:\Users\Playdata\Documents\프로젝트4조\4조 이미지 폴더',
+	'비키니 시티',
+	0
+);
+
+가게용 회원
+INSERT INTO `member`
+( member_code, user_id, email, `password`, `name`, nickname,identity_no, phone, profile_img, address,manner_total_score)
+VALUES(
+	'2',
+	'jang123',
+	'jang123@gmail.com',
+	'janggun123',
+	'장건',
+	'로컬 버드',
+	'899003-2484773',
+	'010-2222-9969',
+	'C:\Users\Playdata\Documents\프로젝트4조\4조 이미지 폴더',
+	'비키니 시티',
+	0
+);
+
+
+관리자 회원
+INSERT INTO `member`
+( member_code, user_id, email, `password`, `name`, nickname,identity_no, phone, profile_img, address,manner_total_score)
+VALUES(
+	'3',
+	'dong123',
+	'dong123@gmail.com',
+	'donggun123',
+	'동건',
+	'로컬 휴먼',
+	'779003-2484663',
+	'010-2222-9969',
+	'C:\Users\Playdata\Documents\프로젝트4조\4조 이미지 폴더',
+	'비키니 시티',
+	0
+);
+
+```
+
