@@ -355,3 +355,16 @@ END$$
 
 DELIMITER ;
 ```
+
+```sql
+DELIMITER $$
+
+CREATE OR REPLACE TRIGGER afterChatRoomInsert
+AFTER INSERT ON chat_room
+FOR EACH ROW
+BEGIN
+    INSERT INTO cart(chat_room_no) VALUES (NEW.chat_room_no);
+END$$
+
+DELIMITER ;
+```
