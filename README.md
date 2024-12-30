@@ -41,6 +41,7 @@
 
 
 ## WBS
+
 <div>
 
 
@@ -48,11 +49,11 @@
 
 
 <summary>링크</summary>
-[WBS]: (https://github.com/beyond-sw-camp/be13-1st-bab_eum/blob/main/WBS%204%E1%84%8C%E1%85%A9.pdf/, "WBS 링크" )
+
+[WBS](https://github.com/beyond-sw-camp/be13-1st-bab_eum/blob/main/WBS%204%E1%84%8C%E1%85%A9.pdf)
   
 
 </detail>
-  
 </div>
 
 <div>
@@ -61,7 +62,8 @@
 
   <details>
   <summary>링크</summary>
- (https://github.com/beyond-sw-camp/be13-1st-bab_eum/blob/main/%E1%84%8B%E1%85%AD%E1%84%80%E1%85%AE%E1%84%89%E1%85%A1%E1%84%92%E1%85%A1%E1%86%BC%20%E1%84%86%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A6%E1%84%89%E1%85%A5.pdf)
+    
+[요구사항 명세서](https://github.com/beyond-sw-camp/be13-1st-bab_eum/blob/main/%E1%84%8B%E1%85%AD%E1%84%80%E1%85%AE%E1%84%89%E1%85%A1%E1%84%92%E1%85%A1%E1%86%BC%20%E1%84%86%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A6%E1%84%89%E1%85%A5.pdf)
   </detail>
 
 </div>
