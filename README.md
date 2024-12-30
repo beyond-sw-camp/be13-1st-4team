@@ -89,7 +89,7 @@ CREATE TABLE `member` (
 );
 ```
 
-### 2. MEMBER
+### 2. STORES
 ```sql
 CREATE TABLE `stores` (
 	`store_no` INT(11) NOT NULL AUTO_INCREMENT,
@@ -116,4 +116,14 @@ CREATE TABLE `stores` (
 	CONSTRAINT `CONSTRAINT_1` CHECK (`store_status` in ('Y','N')),
 	CONSTRAINT `CONSTRAINT_2` CHECK (`store_status` in ('Y','N'))
 );
+```
+
+### 3. CATEGORY_TYPE
+```sql
+CREATE TABLE `category_type` (
+	`category_code` INT(11) NOT NULL DEFAULT '0',
+	`category_name` VARCHAR(45) NOT NULL ,
+	PRIMARY KEY (`category_code`) USING BTREE
+)
+;
 ```
