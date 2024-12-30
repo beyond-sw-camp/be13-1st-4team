@@ -86,9 +86,34 @@ CREATE TABLE `member` (
 	CONSTRAINT `CONSTRAINT_2` CHECK (`member_code` in ('1','2','3')),
 	CONSTRAINT `CONSTRAINT_3` CHECK (`status` in ('Y','N')),
 	CONSTRAINT `CONSTRAINT_4` CHECK (`member_code` in ('1','2','3'))
-)
-
-
-
+);
 ```
 
+### 2. MEMBER
+```sql
+CREATE TABLE `stores` (
+	`store_no` INT(11) NOT NULL AUTO_INCREMENT,
+	`store_name` VARCHAR(150) NOT NULL,
+	`store_address` VARCHAR(1000) NOT NULL ,
+	`phone` VARCHAR(20) NOT NULL ,
+	`store_info` VARCHAR(3000) NULL DEFAULT NULL,
+	`store_img` VARCHAR(1000) NOT NULL ,
+	`min_delivery_price` INT(11) NOT NULL,
+	`delivery_charge` INT(11) NOT NULL DEFAULT '0' ,
+	`deliver_address` VARCHAR(1000) NULL DEFAULT NULL ,
+	`total_rating` FLOAT NOT NULL ,
+	`review_count` INT(11) NOT NULL DEFAULT '0' ,
+	`operation_hours` VARCHAR(300) NULL DEFAULT NULL,
+	`total_order` INT(11) NULL DEFAULT '0',
+	`store_status` CHAR(1) NOT NULL DEFAULT 'Y' ,
+	`member_no` INT(11) NOT NULL,
+	`category_code` INT(11) NOT NULL DEFAULT '0',
+	PRIMARY KEY (`store_no`) USING BTREE,
+	INDEX `FK_member_TO_stores_1` (`member_no`) USING BTREE,
+	INDEX `FK_category_TO_stores` (`category_code`) USING BTREE,
+	CONSTRAINT `FK_category_TO_stores` FOREIGN KEY (`category_code`) REFERENCES `category_type` (`category_code`) ON UPDATE RESTRICT ON DELETE RESTRICT,
+	CONSTRAINT `FK_member_TO_stores_1` FOREIGN KEY (`member_no`) REFERENCES `member` (`member_no`) ON UPDATE RESTRICT ON DELETE RESTRICT,
+	CONSTRAINT `CONSTRAINT_1` CHECK (`store_status` in ('Y','N')),
+	CONSTRAINT `CONSTRAINT_2` CHECK (`store_status` in ('Y','N'))
+);
+```
