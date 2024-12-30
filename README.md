@@ -1,7 +1,10 @@
 # BobEUM
 
-<image/4th_team_logo.png/>
-//
+<div>
+<img src="4th_team_logo.png" width= "300" height="200"/>
+  
+</div>
+
 &nbsp;
 
 ### 4팀 - NOISE_CAN
