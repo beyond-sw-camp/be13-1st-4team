@@ -16,21 +16,20 @@
 1. [기술 스택](#-----)
 2. [팀원](#--)
 3. [프로젝트 개요](#-------)  
-   1.1. [소개](#--)
-     
+   1.1. [소개](#--)     
 4.[WBS](#wbs)  
 5.[요구사항 명세서](#요구사항-명세서)  
 6. [📌 SCHEMA](#-schema)  
-  1.1. [MEMBER](#1-member)    
-  1.2. [STORES](#2-stores)   
-  1.3. [ORDERS](#3-orders)  
+   1.1. [MEMBER](#1-member)    
+   1.2. [STORES](#2-stores)   
+   1.3. [ORDERS](#3-orders)  
 7. [DML ✏️](#dml---)  
-  1.1. [1. MEMBER](#1-member-1)  
-  1.2. [2. MENU](#2-menu)  
-  1.3. [3. STORES](#3-stores)  
+   1.1. [1. MEMBER](#1-member-1)  
+   1.2. [2. MENU](#2-menu)  
+   1.3. [3. STORES](#3-stores)  
 8. [프로시저와 트리거](#프로시저와-트리거)  
-  1.1. [PROCEDURE 🧷](#-procedure)  
-  1.2. [TRIGGER 🧷](#-trigger--)
+   1.1. [PROCEDURE 🧷](#-procedure)  
+   1.2. [TRIGGER 🧷](#-trigger--)
 
 ---  
 
