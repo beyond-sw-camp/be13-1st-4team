@@ -63,3 +63,32 @@
 </div>
 
 
+## SCHEMA 
+### 1. MEMBER
+```sql
+CREATE TABLE `member` (
+	`member_no` INT(11) NOT NULL AUTO_INCREMENT,
+	`member_code` CHAR(1) NOT NULL DEFAULT '1',
+	`email` VARCHAR(100) NOT NULL ,
+	`password` VARCHAR(100) NOT NULL ,
+	`name` VARCHAR(100) NOT NULL ,
+	`nickname` VARCHAR(100) NOT NULL ,
+	`identity_no` VARCHAR(20) NOT NULL ,
+	`phone` VARCHAR(20) NOT NULL ,
+	`profile_img` VARCHAR(900) NULL DEFAULT NULL,
+	`address` VARCHAR(1000) NOT NULL ,
+	`enroll_date` DATE NOT NULL DEFAULT curdate(),
+	`manner_total_score` INT(11) NOT NULL DEFAULT '25' ,
+	`status` CHAR(1) NOT NULL DEFAULT 'N' ,
+	`member_flag` TINYINT(4) NOT NULL DEFAULT '0' ,
+	PRIMARY KEY (`member_no`) USING BTREE,
+	CONSTRAINT `CONSTRAINT_1` CHECK (`status` in ('Y','N')),s
+	CONSTRAINT `CONSTRAINT_2` CHECK (`member_code` in ('1','2','3')),
+	CONSTRAINT `CONSTRAINT_3` CHECK (`status` in ('Y','N')),
+	CONSTRAINT `CONSTRAINT_4` CHECK (`member_code` in ('1','2','3'))
+)
+
+
+
+```
+
