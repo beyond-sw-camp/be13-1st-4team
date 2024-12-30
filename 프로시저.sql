@@ -1,5 +1,26 @@
-INSERT INTO `chat_room`(chat_name ,address, max_people_num, store_no)
-VALUES ('짜장면 먹을 사람 여기 모여라~!!', '서울특별시 동작구 보라매로87 신이빌딩 5층', 3, 2);
+DELIMITER $$
+
+CREATE PROCEDURE InsertChatRoom(
+    IN chat_name VARCHAR(255), 
+    IN address VARCHAR(255), 
+    IN max_people_num INT, 
+    IN store_no INT
+)
+BEGIN
+    INSERT INTO `chat_room` (chat_name, address, max_people_num, store_no)
+    VALUES (chat_name, address, max_people_num, store_no);
+END $$
+
+DELIMITER ;
+
+
+CALL InsertChatRoom(
+    '짜장면 먹을 사람 여기 모여라~!!', 
+    '서울특별시 동작구 보라매로87 신이빌딩 5층', 
+    3, 
+    2
+);
+
 
 DELIMITER $$
 CREATE OR REPLACE PROCEDURE chatRoomEnter(
