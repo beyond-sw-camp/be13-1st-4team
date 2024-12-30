@@ -13,7 +13,7 @@
 
 ## 목차
 1.[SCHEMA](#SCHEMA)
-#SCHEMA
+
 
 
 ## 기술 스택
