@@ -170,7 +170,7 @@ CREATE TABLE orders (
 
 </br>
 
-## ✏️ DML 
+## ✏️ DML
 ### 1. MEMBER
 ```sql
 일반 회원
