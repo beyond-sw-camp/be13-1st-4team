@@ -30,7 +30,7 @@
    1.3. [3. STORES](#3-stores)  
 8. [🧷 프로시저와 트리거](#-프로시저와-트리거)  
    1.1. [PROCEDURE](#-procedure)  
-   1.2. [TRIGGER](#-trigger--)
+   1.2. [TRIGGER](#-trigger)
 
 	
 
