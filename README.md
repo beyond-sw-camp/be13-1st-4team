@@ -1,6 +1,6 @@
 # BobEUM
 
-image/4th_team_logo.png
+<image/4th_team_logo.png/>
 
 &nbsp;
 
