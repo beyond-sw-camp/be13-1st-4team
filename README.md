@@ -158,7 +158,7 @@ VALUES(
 	'잠수한 악어',
 	'778872-1484893',
 	'010-2222-3333',
-	'C:\Users\Playdata\Documents\프로젝트4조\4조 이미지 폴더',
+	'C:\Users\Playdata\Documents\프로젝트4조\4조 이미지 폴더\회원 이미지.jpg',
 	'서울특별시 동작구 여의대방로36길 36-1',
 	0
 );
@@ -168,14 +168,14 @@ INSERT INTO `member`
 ( member_code, user_id, email, `password`, `name`, nickname,identity_no, phone, profile_img, address,manner_total_score)
 VALUES(
 	'2',
-	'jang123',
-	'jang123@gmail.com',
-	'janggun123',
+	'jang0312',
+	'jang0312@gmail.com',
+	'janggun0312',
 	'장건',
 	'로컬 버드',
 	'899003-2484773',
 	'010-2222-9969',
-	'C:\Users\Playdata\Documents\프로젝트4조\4조 이미지 폴더',
+	'C:\Users\Playdata\Documents\프로젝트4조\4조 이미지 폴더\가게 프로필 이미지.jpg',
 	'서울특별시 동작구 신대방길 80',
 	0
 );
@@ -193,7 +193,7 @@ VALUES(
 	'로컬 휴먼',
 	'779003-2484663',
 	'010-2222-9969',
-	'C:\Users\Playdata\Documents\프로젝트4조\4조 이미지 폴더',
+	'C:\Users\Playdata\Documents\프로젝트4조\4조 이미지 폴더\관리자 프로필 이미지.jpg',
 	'서울특별시 동작구 신대방1다길 24',
 	0
 );
