@@ -62,5 +62,4 @@
 
 </div>
 
-## SQL 성능 개선
-<img src="" width="100" height="100"/>
+
