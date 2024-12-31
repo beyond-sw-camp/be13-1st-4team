@@ -92,6 +92,9 @@
 </div>
 </br>
 
+## ERD 
+<img src="ERD.png" width="800" height="600"/>
+
 ## 📌 SCHEMA 
 ### 1. MEMBER
 ```sql
