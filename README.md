@@ -44,7 +44,7 @@
 ## 팀원
 <div>
 
-|   <img src="1000011301.jpg" width="200" height="200"/>         |   <img src="1000011302.jpg" width="200" height="200"/>   | <img src="1000011303.jpg" width="200" height="200"/>  |  <img src="1000011304.jpg" width="200" height="200"/>  |
+|   <img src="team_img/1000011301.jpg" width="200" height="200"/>         |   <img src="1000011302.jpg" width="200" height="200"/>   | <img src="1000011303.jpg" width="200" height="200"/>  |  <img src="1000011304.jpg" width="200" height="200"/>  |
 | :------------------------------------------------------------: | :--------------------------------------------------------: | :--------------------------------------------------------: | :------------------------------------------------------: |
 |  **최건**<br/>[@gjaku1031](https://github.com/gjaku1031)       |  **이덕찬**<br/>[@deokChan2](https://github.com/deokChan2) |  **임현조**<br/>[@limhyunjo](https://github.com/limhyunjo) |  **홍도현**<br/>[@dh0522](https://github.com/dh0522) |
 
