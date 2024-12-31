@@ -116,7 +116,7 @@ CREATE TABLE `member` (
 	`status` CHAR(1) NOT NULL DEFAULT 'N' ,
 	`member_flag` TINYINT(4) NOT NULL DEFAULT '0' ,
 	PRIMARY KEY (`member_no`) USING BTREE,
-	CONSTRAINT `CONSTRAINT_1` CHECK (`status` in ('Y','N')),s
+	CONSTRAINT `CONSTRAINT_1` CHECK (`status` in ('Y','N')),
 	CONSTRAINT `CONSTRAINT_2` CHECK (`member_code` in ('1','2','3')),
 	CONSTRAINT `CONSTRAINT_3` CHECK (`status` in ('Y','N')),
 	CONSTRAINT `CONSTRAINT_4` CHECK (`member_code` in ('1','2','3'))
