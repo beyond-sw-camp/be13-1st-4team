@@ -93,6 +93,8 @@
 ## 📈 ERD 
 <img src="ERD.png" width="800" height="600"/>
 
+[@ERDCloud](https://www.erdcloud.com/d/pGztQ72Swt76nn4dK)
+
 ## 📌 SCHEMA 
 ### 1. MEMBER
 ```sql
